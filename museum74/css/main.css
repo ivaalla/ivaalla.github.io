@@ -69,10 +69,6 @@ h1 span {
   margin-top: 86px;
 }
 
-.activity_section {
-
-}
-
 .about_work_section {
   margin-top: 10px;
 }
@@ -86,7 +82,7 @@ section {
 }
 
 .heading {
-  padding-top: 36px;
+  padding-top: 32px;
   position: fixed;
 }
 header {
@@ -142,12 +138,45 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 70vh;
 }
 
 #galery img:hover {
   width: 400px;
   top: 0;
   left: 0;
+}
+
+.scale3 img:hover {
+  transform: scale(3);
+  -webkit-transform:scale(3);
+  -moz-transform:scale(3);
+  -o-transform:scale(3);
+}
+
+.documents_container {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.documents_container img, .scale3 img, #galery img {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+.documents_container img:hover {
+  transform:scale(2.3);
+  -webkit-transform:scale(2.3);
+  -moz-transform:scale(2.3);
+  -o-transform:scale(2.3);
+  z-index: 10;
+  position: relative;
+  top: 62px;
 }
 
 footer {
@@ -165,4 +194,25 @@ footer {
 
 .popover-header {
   color: #333333;
+}
+
+#kucherenko {
+  position: relative;
+  cursor: pointer;
+}
+
+#kucherenko i:hover {
+  color: #4D7556;
+}
+
+#kucherenko:hover .floating {
+  display: block;
+  top: -300px;
+  z-index: 10;
+}
+
+.floating {
+  position: absolute;
+  display: none;
+  /* right: -100px; */
 }
