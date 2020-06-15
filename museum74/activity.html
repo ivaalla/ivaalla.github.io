@@ -28,45 +28,42 @@
   <main>
     <div class="container pt-3 pb-4 d-flex flex-column align-items-center bg-jumbo activity_slider_container">
     </div>
-    <section id="history" class="history_section">
-      <div class="container">
-        <h3>Історія музею</h3>
-        <div class="documents_container">
-          <!-- <h3>Документи</h3> -->
-          <img src="img/doc1.png" width="260">
-          <img src="img/doc2.png" width="260">
-          <img src="img/doc3.png" width="260">
-          <img src="img/doc4.png" width="260">
-        </div>
-        <!-- <div id="activityCarousel" class="carousel slide" data-ride="carousel"> -->
-        <div>
-          <p id="1998">1998 року у приміщенні середньої загальноосвітньої школи №74 міста Львова засновано кімнату-музей Марійки Підгірянки. Профіль музею:літературний.
-          </p>
-          <p>Пошуково-дослідницька робота  проводилася з 1995 по 1998рр. вчителями та учнями школи під керівництвом ініціатора створення кімнати-музею учительки української мови і літератури 
-            <span id="kucherenko"><strong><i>Кучеренко Євгенії Маркіянівни</i></strong><img class="floating"  src="img/4.jpg" width="300"></a>, 
-            а також заступника директора Шкурпило Марії Григорівни і директора школи Юрківа Михайла Федоровича.
-          </p>
-          <p>Сьогодні у кімнаті-музеї працює рада музею, що складається з учителів та учнів школи. Керівником кімнати-музею є Карбовник Ірина Адамівна.Учні – екскурсоводи проводять екскурсії для учнів початкової школи (від 15 до 30 хвилин) та школярів 5-6-х класів і усіх бажаючих ( 45-60 хвилин).
-          </p>
-        </div>
-        <div class="scale3">
-          <img src="img/2.jpg" width="200" data-toggle="tooltip" title="Стенди музею">
-        </div>
-        <div id="activity">&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-              
-      </div>
-    </section>
+ 
+    <div id="activity">&nbsp;</div>
+    <div class="h40">&nbsp;</div>
 
     <!-- BEGIN EXPOSITION-ACTIVITY SECTION -->
     <section class="activity_section pb-5">
       <div class="container activity_container">
         <div>
-          <h3>Екскурсії</h3>
-	        <div>
-            <img src="img/35.jpg" width="600" data-toggle="tooltip" title="Діти проводять екскурсію">
+          <div class="section_header">
+            <h3>Екскурсії</h3>
+            <div id="excursion_carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/35.jpg" alt="фото-01">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/34.jpg" alt="фото-02">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/32.jpg" alt="фото-03">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#excursion_carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#excursion_carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
           </div>
+
+	        <!-- <div>
+            <img src="img/35.jpg" width="600" data-toggle="tooltip" title="Діти проводять екскурсію">
+          </div> -->
           <p>У кімнаті-музеї для учнів початкової школи (1-4 класи) проводять оглядові екскурсії, а для школярів
             &nbsp;старших класів &ndash; тематичні: &laquo;Життя та діяльність Марійки Підгірянки&raquo;,
             &laquo;Дивосвіт Марійки Підгірянки&raquo;. Учителі початкової школи тут проводять навчальні заняття, музейні
@@ -93,12 +90,37 @@
           <p>Учителі школи допомагали зібрати кошти для встановлення пам&rsquo;ятника Марійці Підгірянці у Білих
             Ославах, тож ще одним експонатом музею є &laquo;Подяка&raquo; учительському колективу Львівської ЗОШ№ 74.
           </p>
-          
-          <h3 id="science">Науково-дослідницька робота</h3>
-          <div>
-            <img src="img/museum-916.jpg" width="600" data-toggle="tooltip" title="Світлини книжок">
-          </div>
+        </div>
+        <div>
 
+          <div class="section_header">
+            <h3 id="science">Науково-дослідницька робота</h3>
+            <div id="science_carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/museum-916.jpg" alt="фото-01">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/museum-103.jpg" alt="фото-02">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/museum-805.jpg" alt="фото-03">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#science_carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#science_carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+            <!-- <div>
+              <img src="img/museum-916.jpg" width="600" data-toggle="tooltip" title="Світлини книжок">
+            </div> -->
+          </div>
           <p>Пошуково &ndash; дослідницька робота часто виходить за межі кімнати-музею, оскільки спільно з краєзнавцем
             В. Левицьким і головним редактором надвірнянської газети &laquo;Народна воля&raquo; Іваном Гриджуком
             організовуються спільні акції, реалізовуються спільні програми вшанування пам&rsquo;яті поетки: панахида на
@@ -112,10 +134,23 @@
             кімнати-музею Марійки Підгірянки.</p>
 
           <p>Завітайте до нашої кімнати &ndash; музею Марійки Підгірянки у Львівській ЗОШ №74.</p>
+          <div class="expo_container">
+            <h3>Творчість Марійки-Підгірянки</h3>
+              
+          </div>
 
         </div>
       </div>
     </section>
+
+    
+    <!-- BEGIN EXPOSITION-CHILD SECTION -->
+    <!-- <section id="artworks" class="artworks_section pb-5"> -->
+      <!-- <div class="container expo_container">
+        <h2>Творчість Марійки-Підгірянки</h2>
+          
+      </div> -->
+    <!-- </section> -->
   </main>
 
   <footer id="contacts">
